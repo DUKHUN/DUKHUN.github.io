@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>박경하심내과</title>
+  <style>
+    body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; line-height: 1.6; background-color: #f9f9f9; color: #333; }
+    header { background-color: #004080; color: white; padding: 1rem 2rem; }
+    nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+    nav a { color: white; text-decoration: none; font-size: 1rem; }
+    nav a:hover { text-decoration: underline; }
+    .container { padding: 2rem; max-width: 960px; margin: auto; }
+    section { margin-bottom: 3rem; }
+    .reserve-btn {
+      display: inline-block;
+      background-color: #0073e6;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      text-align: center;
+    }
+    .reserve-btn:hover {
+      background-color: #005bb5;
+    }
+    footer { background-color: #004080; color: white; text-align: center; padding: 1rem; }
+
+    @media (max-width: 600px) {
+      nav { flex-direction: column; gap: 0.5rem; }
+      nav a { font-size: 1.2rem; }
+      .container { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>박경하심내과</h1>
+    <nav>
+      <a href="#intro">병원 소개</a>
+      <a href="#services">진료 과목</a>
+      <a href="#doctor">의료진 소개</a>
+      <a href="#location">오시는 길</a>
+      <a href="#contact">문의</a>
+      <a href="#reservation">예약하기</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="intro">
+      <h2>병원 소개</h2>
+      <p>박경하심내과는 환자 중심의 진료와 정밀한 내과 치료를 통해 지역사회 건강을 책임지고 있습니다.</p>
+    </section>
+
+    <section id="services">
+      <h2>진료 과목</h2>
+      <ul>
+        <li>순환기 내과</li>
+        <li>일반 내과</li>
+        <li>건강 검진</li>
+      </ul>
+    </section>
+
+    <section id="doctor">
+      <h2>의료진 소개</h2>
+      <p><strong>박경하 원장</strong> - 내과 전문의, 순환기 전문의</p>
+    </section>
+
+    <section id="location">
+      <h2>오시는 길</h2>
+      <p>서울시 예시구 예시동 123-45<br>
+      (지도 삽입 예정)</p>
+    </section>
+
+    <section id="contact">
+      <h2>문의하기</h2>
+      <p>전화: 02-123-4567<br>
+      이메일: example@clinic.com</p>
+    </section>
+
+    <section id="reservation">
+      <h2>예약하기</h2>
+      <p>진료 예약은 전화 또는 온라인 예약 시스템을 통해 가능합니다.</p>
+      <a class="reserve-btn" href="tel:021234567">📞 전화로 예약하기</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 박경하심내과. All rights reserved.</p>
+  </footer>
+</body>
+</html>
